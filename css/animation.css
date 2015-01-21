@@ -1,0 +1,129 @@
+@-webkit-keyframes moveFrom{
+    0% {  -webkit-transform: translateX(-20%); }
+    100% {  -webkit-transform: translateX(0%);  }
+}
+@-moz-keyframes moveFrom{
+    0% {  -webkit-transform: translateX(-20%); }
+    100% {  -webkit-transform: translateX(0%);  }
+}
+@-webkit-keyframes moveFrom1{
+    0% {  -webkit-transform: translateY(-200%); }
+    100% {  -webkit-transform: translateY(0%);  }
+}
+@-moz-keyframes moveFrom1{
+    0% {  -webkit-transform: translateY(-200%); }
+    100% {  -webkit-transform: translateY(0%);  }
+}
+
+//Key Frame Top
+@-webkit-keyframes moveFromTop {
+    from {
+        -webkit-transform: translateY(-300%);
+    }
+    to {
+        -webkit-transform: translateY(0%);
+    }
+} 
+@-moz-keyframes moveFromTop {
+    from {
+        -moz-transform: translateY(-300%);
+    }
+    to {
+        -moz-transform: translateY(0%);
+    }
+}
+@-ms-keyframes moveFromTop {
+    from {
+        -ms-transform: translateY(-300%);
+    }
+    to {
+        -ms-transform: translateY(0%);
+    }
+}
+
+
+//Key Frame Bottom
+@-webkit-keyframes moveFromBottom {
+  0% {  -webkit-transform: translateY(-200%); }
+    100% {  -webkit-transform: translateY(0%);  }
+}
+
+
+
+//Key Frame Left
+@-webkit-keyframes moveFromLeft{
+    from {
+        -webkit-transform: translateX(-100%);
+    }
+    to {
+        -webkit-transform: translateX(0%);
+    }
+}
+@-moz-keyframes moveFromLeft{
+    from {
+        -moz-transform: translateX(-100%);
+    }
+    to {
+        -moz-transform: translateX(0%);
+    }
+}
+@-ms-keyframes moveFromLeft{
+    from {
+        -ms-transform: translateX(-100%);
+    }
+    to {
+        -ms-transform: translateX(0%);
+    }
+}
+
+//Key Frame Left
+@-webkit-keyframes moveFromLeft1{
+    0% {
+        -webkit-transform: translateX(-20%);
+    }
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+@-moz-keyframes moveFromLeft1{
+    from {
+        -moz-transform: translateX(-20%);
+    }
+    to {
+        -moz-transform: translateX(0%);
+    }
+}
+@-ms-keyframes moveFromLeft1{
+    from {
+        -ms-transform: translateX(-20%);
+    }
+    to {
+        -ms-transform: translateX(0%);
+    }
+}
+
+//Key Frame Right
+@-webkit-keyframes moveFromRight {
+    from {
+        -webkit-transform: translateX(100%);
+    }
+    to {
+        -webkit-transform: translateX(0%);
+    }
+}
+@-moz-keyframes moveFromRight {
+    from {
+        -moz-transform: translateX(100%);
+    }
+    to {
+        -moz-transform: translateX(0%);
+    }
+}
+@-ms-keyframes moveFromRight {
+    from {
+        -ms-transform: translateX(100%);
+    }
+    to {
+        -ms-transform: translateX(0%);
+    }
+}

@@ -1,0 +1,166 @@
+/**
+ * @package Helix Framework
+ * @author JoomShaper http://www.joomshaper.com
+ * @copyright Copyright (c) 2010 - 2013 JoomShaper
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or Later
+ */
+ #Container .mix{
+  display: none;
+}
+
+.jw-portfolio-filters {
+	margin-bottom:20px;
+}
+.jw-portfolio-filters a{
+  text-decoration: none;
+}
+.wp-portfolio-gallery{
+  display: block;
+  margin: -10px;
+}
+.wp-portfolio-gallery .mix {
+  display: block;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+.wp-portfolio-gallery .mix a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+}
+
+.wp-portfolio-gallery .mix a>.wp-portfolio-preview {
+  position:absolute;
+  width:50px;
+  height:50px;
+  left:50%;
+  top:50%;
+  margin-left:-25px;
+  margin-top:-25px;
+  border: 3px solid #fff;
+  border-radius:100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  box-shadow: 0 0 10px 0 #000;
+  text-shadow: 0 0 5px rgba(0,0,0,0.7);
+  text-align: center;
+  font-weight:normal;
+  font-size:35px;
+  line-height:50px;
+  color:#fff;
+  opacity:0;
+  /*Fallback*/
+  filter:alpha(opacity=0);
+  -webkit-transform: translate(0,-30px);
+  -moz-transform: translate(0,-30px);
+  transform: translate(0,-30px);
+  -webkit-transition: 300ms;
+}
+
+.wp-portfolio-gallery .mix:hover a>.wp-portfolio-preview {
+  opacity:1;
+  /*Fallback*/
+  filter:alpha(opacity=100);    
+  -webkit-transform: translate(0,0);
+  -moz-transform: translate(0,0);
+  transform: translate(0,0);
+}
+
+.wp-portfolio-gallery .mix >div.wp-portfolio-inner {
+  padding:10px;
+  margin:10px;
+  background-color:#fff;
+  position:relative;
+  border:1px solid #dbdada;
+  box-shadow:0 0 1px rgba(0,0,0,.15);
+  -webkit-box-shadow:0 0 1px rgba(0,0,0,.15);
+  overflow:hidden;
+  text-decoration: none;
+}
+
+
+.wp-portfolio-gallery .mix a:hover {
+  text-decoration: none;
+  -webkit-transition: all 
+}
+.wp-portfolio-gallery .mix a h4 {
+  font-size: 24px;
+  font-weight: 200;
+  font-family: 'Roboto';
+  margin: 10px 0;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+.wp-portfolio-desc h4{
+  font-size: 1.2em;
+  padding-bottom: 10px;
+}
+.wp-portfolio-desc a.url{
+  padding-bottom: 8px;  
+}
+.wp-portfolio-desc p{
+  font-size: 1em;
+  line-height: 20px;  
+}
+.wp-portfolio-gallery .mix a:hover h4{
+  -webkit-animation: moveFrom  500ms ease;
+  -moz-animation: moveFrom  500ms ease;
+  -ms-animation: moveFrom  500ms ease;
+}   
+
+.wp-portfolio-gallery .mix a:hover p{
+  -webkit-animation: moveFrom1  500ms ease; 
+}  
+
+/*Fancy Box CSS*/
+.fancybox-custom .fancybox-skin {
+  box-shadow: 0 0 50px #222;
+}
+
+.button {
+ border-top: 1px solid #96d1f8;
+ background: #65a9d7;
+
+ color: white;
+ padding-left: 8px;
+ padding-right: 8px;
+ text-decoration: none;
+ vertical-align: middle;
+}
+.button:hover {
+ border-top-color: #28597a;
+ background: #28597a;
+ color: #ccc;
+}
+.button:active {
+ border-top-color: #1b435e;
+ background: #1b435e;
+}  
+
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property:    -moz-transform, opacity;
+  -ms-transition-property:     -ms-transform, opacity;
+  -o-transition-property:      -o-transform, opacity;
+  transition-property:         transform, opacity;
+}

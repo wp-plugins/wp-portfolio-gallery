@@ -3,8 +3,8 @@ Contributors: litonice13, jwthemeltd
 Donate link: http://liton-online.com/donate
 Tags: WordPress, WordPress Portfolio, Portfolio Gallery, Gallery Plugin, Filterable Portfolio
 Requires at least: 3.8
-Tested up to: 4.1
-Stable tag: 1.0.0
+Tested up to: 4.2.2
+Stable tag: 1.2.0
 
 	
 WP Portfolio Gallery is Awesome Filterable Portfolio Gallery type WordPress Plugin.
@@ -53,6 +53,9 @@ This plugin is licensed under the [Apache License, Version 2.0](http://www.apach
 
 
 == Changelog ==
+= 1.2.0 =
+* Update the PrettyPhoto Script 
+
 = 1.0.0 =
 * Initial Release
 

@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: WP Portfolio Gallery
-Plugin URI: http://jeweltheme.com
+Plugin URI: http://jeweltheme.com/product/wp-portfolio-gallery-plugin/
 Description: WP Portfolio Gallery is awesome Filterable Isotop Portfolio Gallery
-Version: 1.0.0
+Version: 1.2.0
 Author: Liton Arefin
 Author URI: http://www.jeweltheme.com
 License: GPL2
